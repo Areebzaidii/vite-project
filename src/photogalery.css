@@ -1,0 +1,38 @@
+
+  .maindiv{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:rgba(0, 0, 0, 0);
+    justify-content:center;
+    width:96.7vw;
+  
+  }
+  .imagediv {width:200px;
+    background-color:rgba(216, 167, 175, 0);
+  border-radius:24px;
+    height:200px;
+    margin-right:8px;
+    margin-bottom: 5px;
+    border: 2px solid  rgb(22, 172, 231);
+  }
+  .hh3{
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  }
+  .hh3>span{
+    color: rgb(22, 172, 231);
+  }
+  @media (max-width: 444px) {
+  
+    .imagediv {width:100px;
+    border-radius:24px;
+      height:100px;
+      margin-right:3px;
+      margin-bottom: 3px;
+    }
+    
+  .hh3{
+    font-size: 27px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  }
+  }
